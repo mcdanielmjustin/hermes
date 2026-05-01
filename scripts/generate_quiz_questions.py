@@ -37,13 +37,14 @@ import csv, json, pathlib, argparse, time, sys, os, asyncio
 from datetime import datetime, timezone
 from collections import defaultdict
 import anthropic
-from pipeline.api_client import create_client
 
 # ── Ensure pipeline package is importable ─────────────────────
 SCRIPT_DIR = pathlib.Path(__file__).parent
 REPO_ROOT = SCRIPT_DIR.parent
 sys.path.insert(0, str(REPO_ROOT))
 sys.path.insert(0, str(SCRIPT_DIR))
+
+from pipeline.api_client import create_client
 
 from pipeline import (
     DOMAIN_CODES, CODE_TO_ID, DOMAIN_NAMES,
@@ -298,14 +299,14 @@ async def main():
     parser.add_argument("--clean", action="store_true", help="Delete existing output before generating")
     parser.add_argument("--dry-run", action="store_true", help="Preview without API calls")
     parser.add_argument("--api-key", type=str, help="Override API key")
-        parser.add_argument("--provider", type=str, default="nous", 
+    parser.add_argument("--provider", type=str, default="nous", 
                         choices=["nous", "anthropic"], 
                         help="API provider (nous for Qwen, anthropic for Claude)")
     parser.add_argument("--base-url", type=str, default=None,
                         help="API base URL (default: Nous inference API)")
     parser.add_argument("--model", type=str, default=None,
                         help="Model to use (default: qwen/qwen3.5-plus-02-15 for nous, claude-opus-4-7 for anthropic)")
-parser.add_argument(
+    parser.add_argument(
         "--prompt-version", type=str, choices=["v1", "v2"], default="v2",
         help="Generation system-prompt version. v2 (default, post-Phase-18) "
              "adds the Distractor Quality Framework section that mirrors "

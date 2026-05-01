@@ -123,7 +123,7 @@ class AnthropicClient(BaseAPIClient):
             }
 
 def create_client(provider: str = "nous", api_key: str = None, base_url: str = None, model: str = None):
-    """Factory function to create appropriate client"""
+    """Factory function to create appropriate client (supports: nous, openrouter, anthropic)"""
     
     if provider == "anthropic":
         if not api_key:

@@ -39,8 +39,9 @@ USE_BRIEF_FOR_GENERATION: bool = (
     in ("1", "true", "yes")
 )
 
-from . import (
 from pipeline.api_client import create_client
+
+from . import (
     CORRECT_POSITIONS, get_source_type, get_stem_pattern,
 )
 from .agents import (
