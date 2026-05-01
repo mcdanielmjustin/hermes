@@ -1,0 +1,32 @@
+# Extraction intermediates (compiled into ENRICHMENT_SPEC.md)
+_extract_*.md
+_audit_*.md
+
+# Python
+__pycache__/
+*.pyc
+
+# One-off scripts (not part of pipeline)
+backfill_distractors.py
+
+# Generated data (anchor briefs, quiz output, concept vocab, logs)
+# Use data/* (not data/) so the !data/concept_registry.json exception
+# can take effect — git won't honor exceptions inside a wholesale-
+# ignored parent directory.
+data/*
+!data/concept_registry.json
+logs/
+
+# Checkpoint files (resume state, not source)
+scripts/*_checkpoint.json
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/

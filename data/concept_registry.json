@@ -1,0 +1,1883 @@
+{
+  "version": 1,
+  "concepts": {
+    "nondeclarative-memory-system": {
+      "label": "Nondeclarative (Implicit) Memory System",
+      "description": "Memory expressed through performance without conscious awareness, including procedural skills, habits, classical conditioning, and priming.",
+      "first_seen": "D7-PHY-021-b323a513",
+      "appears_in": [
+        "D7-PHY-021-b323a513"
+      ],
+      "created_at": "2026-04-26T22:29:48.446847+00:00"
+    },
+    "basal-ganglia-procedural": {
+      "label": "Basal Ganglia and Procedural/Habit Learning",
+      "description": "The basal ganglia support procedural skill learning and habit formation, with damage (e.g., Huntington's, Parkinson's) impairing these abilities.",
+      "first_seen": "D7-PHY-021-b323a513",
+      "appears_in": [
+        "D7-PHY-021-b323a513"
+      ],
+      "created_at": "2026-04-26T22:29:48.446896+00:00"
+    },
+    "cerebellum-classical-conditioning": {
+      "label": "Cerebellum and Conditioned Motor Responses",
+      "description": "The cerebellum is required for the acquisition and storage of classically conditioned motor responses such as the eyeblink response.",
+      "first_seen": "D7-PHY-021-b323a513",
+      "appears_in": [
+        "D7-PHY-021-b323a513"
+      ],
+      "created_at": "2026-04-26T22:29:48.446911+00:00"
+    },
+    "hippocampal-declarative-system": {
+      "label": "Hippocampal Declarative Memory System",
+      "description": "Medial temporal lobe structures supporting conscious memory for facts and events; damage produces amnesia but spares implicit memory.",
+      "first_seen": "D7-PHY-021-b323a513",
+      "appears_in": [
+        "D7-PHY-021-b323a513"
+      ],
+      "created_at": "2026-04-26T22:29:48.446921+00:00"
+    },
+    "amnesia-preserved-implicit": {
+      "label": "Preserved Implicit Memory in Amnesia",
+      "description": "Amnesic patients with hippocampal damage retain the ability to learn new motor skills, conditioned responses, and show priming despite losing declarative memory.",
+      "first_seen": "D7-PHY-021-b323a513",
+      "appears_in": [
+        "D7-PHY-021-b323a513"
+      ],
+      "created_at": "2026-04-26T22:29:48.446931+00:00"
+    },
+    "antagonist": {
+      "label": "Antagonist",
+      "description": "A ligand that produces no intrinsic biological effect but reduces the action of an agonist by blocking receptor binding or interfering with neurotransmitter synthesis or release.",
+      "first_seen": "D7-PHY-195-17b48e1e",
+      "appears_in": [
+        "D7-PHY-195-17b48e1e"
+      ],
+      "created_at": "2026-04-26T22:29:48.448369+00:00"
+    },
+    "agonist": {
+      "label": "Agonist",
+      "description": "A ligand that binds to a receptor and alters the receptor state to produce a biological response, mimicking or enhancing neurotransmitter action.",
+      "first_seen": "D7-PHY-195-17b48e1e",
+      "appears_in": [
+        "D7-PHY-195-17b48e1e"
+      ],
+      "created_at": "2026-04-26T22:29:48.448389+00:00"
+    },
+    "receptor-blockade": {
+      "label": "Receptor Blockade",
+      "description": "A mechanism by which an antagonist occupies a receptor site, preventing the neurotransmitter from binding and producing its effect.",
+      "first_seen": "D7-PHY-195-17b48e1e",
+      "appears_in": [
+        "D7-PHY-195-17b48e1e"
+      ],
+      "created_at": "2026-04-26T22:29:48.448400+00:00"
+    },
+    "neurotransmitter-synthesis-inhibition": {
+      "label": "Neurotransmitter Synthesis/Release Inhibition",
+      "description": "Indirect antagonism that reduces neurotransmitter availability by interfering with its production or release rather than blocking receptors.",
+      "first_seen": "D7-PHY-195-17b48e1e",
+      "appears_in": [
+        "D7-PHY-195-17b48e1e"
+      ],
+      "created_at": "2026-04-26T22:29:48.448412+00:00"
+    },
+    "intrinsic-activity": {
+      "label": "Intrinsic Activity",
+      "description": "The capacity of a ligand to activate a receptor and produce a biological response after binding; antagonists have zero intrinsic activity.",
+      "first_seen": "D7-PHY-195-17b48e1e",
+      "appears_in": [
+        "D7-PHY-195-17b48e1e"
+      ],
+      "created_at": "2026-04-26T22:29:48.448420+00:00"
+    },
+    "conditioned-stimulus": {
+      "label": "Conditioned Stimulus (CS)",
+      "description": "An initially neutral stimulus that, after repeated pairing with a US, comes to elicit a conditioned response (e.g., the white rat in Watson & Rayner).",
+      "first_seen": "D1-LEA-008-f5ad52bd",
+      "appears_in": [
+        "D1-LEA-008-f5ad52bd"
+      ],
+      "created_at": "2026-04-26T23:42:18.011228+00:00"
+    },
+    "unconditioned-stimulus": {
+      "label": "Unconditioned Stimulus (US)",
+      "description": "A stimulus that consistently and automatically elicits a response without prior learning (e.g., the loud noise from striking a steel bar).",
+      "first_seen": "D1-LEA-008-f5ad52bd",
+      "appears_in": [
+        "D1-LEA-008-f5ad52bd"
+      ],
+      "created_at": "2026-04-26T23:42:18.011261+00:00"
+    },
+    "unconditioned-response": {
+      "label": "Unconditioned Response (UR)",
+      "description": "The natural, unlearned reflexive response automatically elicited by the US (e.g., startle/distress to the loud noise).",
+      "first_seen": "D1-LEA-008-f5ad52bd",
+      "appears_in": [
+        "D1-LEA-008-f5ad52bd"
+      ],
+      "created_at": "2026-04-26T23:42:18.011273+00:00"
+    },
+    "conditioned-response": {
+      "label": "Conditioned Response (CR)",
+      "description": "The learned response elicited by the CS after pairing with the US; resembles the UR but is typically less intense.",
+      "first_seen": "D1-LEA-008-f5ad52bd",
+      "appears_in": [
+        "D1-LEA-008-f5ad52bd"
+      ],
+      "created_at": "2026-04-26T23:42:18.011281+00:00"
+    },
+    "cs-us-pairing": {
+      "label": "CS-US Pairing (Temporal Contiguity)",
+      "description": "Repeated presentation of the CS and US in close temporal succession across multiple trials, the procedural mechanism that produces conditioning.",
+      "first_seen": "D1-LEA-008-f5ad52bd",
+      "appears_in": [
+        "D1-LEA-008-f5ad52bd"
+      ],
+      "created_at": "2026-04-26T23:42:18.011291+00:00"
+    },
+    "coefficient-of-genetic-relationship": {
+      "label": "Coefficient of Genetic Relationship",
+      "description": "A quantitative measure of the proportion of segregating genes two relatives share by descent; 1.0 for MZ twins, .50 for DZ twins and full siblings, .25 for half-siblings.",
+      "first_seen": "D2-LIF-011-8dd61bf8",
+      "appears_in": [
+        "D2-LIF-011-8dd61bf8"
+      ],
+      "created_at": "2026-04-26T23:43:21.104929+00:00"
+    },
+    "monozygotic-twins": {
+      "label": "Monozygotic (Identical) Twins",
+      "description": "Twins from a single fertilized egg who share virtually 100% of their segregating genes (coefficient = 1.0).",
+      "first_seen": "D2-LIF-011-8dd61bf8",
+      "appears_in": [
+        "D2-LIF-011-8dd61bf8"
+      ],
+      "created_at": "2026-04-26T23:43:21.104963+00:00"
+    },
+    "dizygotic-twins": {
+      "label": "Dizygotic (Fraternal) Twins",
+      "description": "Twins from two separate fertilized eggs who share approximately 50% of segregating genes (coefficient = .50), genetically equivalent to ordinary full siblings.",
+      "first_seen": "D2-LIF-011-8dd61bf8",
+      "appears_in": [
+        "D2-LIF-011-8dd61bf8"
+      ],
+      "created_at": "2026-04-26T23:43:21.104974+00:00"
+    },
+    "full-siblings": {
+      "label": "Full Biological Siblings",
+      "description": "Siblings sharing both biological parents who share approximately 50% of segregating genes on average.",
+      "first_seen": "D2-LIF-011-8dd61bf8",
+      "appears_in": [
+        "D2-LIF-011-8dd61bf8"
+      ],
+      "created_at": "2026-04-26T23:43:21.104980+00:00"
+    },
+    "half-siblings": {
+      "label": "Half-Siblings",
+      "description": "Siblings sharing only one biological parent who share approximately 25% of segregating genes.",
+      "first_seen": "D2-LIF-011-8dd61bf8",
+      "appears_in": [
+        "D2-LIF-011-8dd61bf8"
+      ],
+      "created_at": "2026-04-26T23:43:21.104987+00:00"
+    },
+    "agoraphobia-dsm5": {
+      "label": "Agoraphobia (DSM-5)",
+      "description": "Anxiety disorder characterized by marked fear/anxiety in at least two of five specified situations due to fear of inability to escape or obtain help.",
+      "first_seen": "D3-PPA-10-6d6f589c",
+      "appears_in": [
+        "D3-PPA-10-6d6f589c"
+      ],
+      "created_at": "2026-04-26T23:44:39.231034+00:00"
+    },
+    "five-agoraphobic-situations": {
+      "label": "Five Qualifying Situations",
+      "description": "Public transportation, open spaces, enclosed spaces, crowds/lines, and being outside the home alone.",
+      "first_seen": "D3-PPA-10-6d6f589c",
+      "appears_in": [
+        "D3-PPA-10-6d6f589c"
+      ],
+      "created_at": "2026-04-26T23:44:39.231066+00:00"
+    },
+    "two-situation-requirement": {
+      "label": "Two-of-Five Requirement",
+      "description": "DSM-5 requires endorsement of fear in at least two of the five situations to diagnose agoraphobia.",
+      "first_seen": "D3-PPA-10-6d6f589c",
+      "appears_in": [
+        "D3-PPA-10-6d6f589c"
+      ],
+      "created_at": "2026-04-26T23:44:39.231082+00:00"
+    },
+    "panic-disorder": {
+      "label": "Panic Disorder",
+      "description": "Separate DSM-5 diagnosis defined by recurrent unexpected panic attacks; can co-occur with but is distinct from agoraphobia.",
+      "first_seen": "D3-PPA-10-6d6f589c",
+      "appears_in": [
+        "D3-PPA-10-6d6f589c"
+      ],
+      "created_at": "2026-04-26T23:44:39.231091+00:00"
+    },
+    "specific-phobia": {
+      "label": "Specific Phobia",
+      "description": "Marked fear of a specific object or situation that does not require multiple qualifying situations and is differentiated from agoraphobia.",
+      "first_seen": "D3-PPA-10-6d6f589c",
+      "appears_in": [
+        "D3-PPA-10-6d6f589c"
+      ],
+      "created_at": "2026-04-26T23:44:39.231099+00:00"
+    },
+    "conditioned-inhibitor": {
+      "label": "Conditioned Inhibitor (Safety Signal)",
+      "description": "A stimulus that, through experience, signals the absence or reduction of the US and actively suppresses the CR when present.",
+      "first_seen": "D4-LEA-012-564e07d9",
+      "appears_in": [
+        "D4-LEA-012-564e07d9"
+      ],
+      "created_at": "2026-04-26T23:45:44.152417+00:00"
+    },
+    "conditioned-excitor": {
+      "label": "Conditioned Excitor (CS)",
+      "description": "A CS that signals the presence of the US and elicits the conditioned response.",
+      "first_seen": "D4-LEA-012-564e07d9",
+      "appears_in": [
+        "D4-LEA-012-564e07d9"
+      ],
+      "created_at": "2026-04-26T23:45:44.152450+00:00"
+    },
+    "safety-behavior": {
+      "label": "Safety Behavior / Safety Signal",
+      "description": "Reliance on a person, object, or action (companion, medication bottle, sitting near exit, phone) to prevent feared outcomes; functions as a conditioned inhibitor and interferes with extinction.",
+      "first_seen": "D4-LEA-012-564e07d9",
+      "appears_in": [
+        "D4-LEA-012-564e07d9"
+      ],
+      "created_at": "2026-04-26T23:45:44.152460+00:00"
+    },
+    "positive-reinforcer": {
+      "label": "Positive Reinforcer",
+      "description": "An operant consequence that increases the frequency of a preceding behavior by adding an appetitive stimulus — distinct from a Pavlovian inhibitor.",
+      "first_seen": "D4-LEA-012-564e07d9",
+      "appears_in": [
+        "D4-LEA-012-564e07d9"
+      ],
+      "created_at": "2026-04-26T23:45:44.152466+00:00"
+    },
+    "extinction": {
+      "label": "Extinction",
+      "description": "Weakening of the CS-US association through repeated CS presentations without the US; distinct from inhibition, which only suppresses the CR.",
+      "first_seen": "D4-LEA-012-564e07d9",
+      "appears_in": [
+        "D4-LEA-012-564e07d9"
+      ],
+      "created_at": "2026-04-26T23:45:44.152472+00:00"
+    },
+    "fading-safety-signals": {
+      "label": "Fading Safety Signals in Exposure",
+      "description": "Graduated removal of safety behaviors during exposure therapy so the client learns to tolerate anxiety and that feared outcomes do not occur without the safety signal.",
+      "first_seen": "D4-LEA-012-564e07d9",
+      "appears_in": [
+        "D4-LEA-012-564e07d9"
+      ],
+      "created_at": "2026-04-26T23:45:44.152478+00:00"
+    },
+    "blocking": {
+      "label": "Blocking Effect",
+      "description": "A phenomenon in which prior conditioning to one stimulus (A) prevents a second stimulus (B), presented in compound with the first and paired with the US, from becoming a conditioned stimulus.",
+      "first_seen": "D1-LEA-01-3-cd0e6629",
+      "appears_in": [
+        "D1-LEA-01-3-cd0e6629"
+      ],
+      "created_at": "2026-04-26T23:50:02.321651+00:00"
+    },
+    "surprise-prediction-error": {
+      "label": "Surprise / Prediction Error",
+      "description": "The discrepancy between the expected and actual US; new learning only occurs when the US is surprising (not already fully predicted).",
+      "first_seen": "D1-LEA-01-3-cd0e6629",
+      "appears_in": [
+        "D1-LEA-01-3-cd0e6629"
+      ],
+      "created_at": "2026-04-26T23:50:02.321690+00:00"
+    },
+    "compound-stimulus": {
+      "label": "Compound Stimulus (AB)",
+      "description": "A stimulus consisting of two elements (A and B) presented simultaneously and paired with the US in Phase 2 of the blocking procedure.",
+      "first_seen": "D1-LEA-01-3-cd0e6629",
+      "appears_in": [
+        "D1-LEA-01-3-cd0e6629"
+      ],
+      "created_at": "2026-04-26T23:50:02.321704+00:00"
+    },
+    "two-phase-procedure": {
+      "label": "Two-Phase Blocking Procedure",
+      "description": "Phase 1: stimulus A alone is paired with the US until it elicits a CR. Phase 2: the compound AB is paired with the same US. Blocking is demonstrated when B alone fails to elicit a CR, compared to a control group without Phase 1 training.",
+      "first_seen": "D1-LEA-01-3-cd0e6629",
+      "appears_in": [
+        "D1-LEA-01-3-cd0e6629"
+      ],
+      "created_at": "2026-04-26T23:50:02.321715+00:00"
+    },
+    "rescorla-wagner-model": {
+      "label": "Rescorla-Wagner Model",
+      "description": "A formal model of classical conditioning stating that associative learning is driven by prediction error between expected and actual US; when prediction error is zero, no associative strength accrues to an added stimulus.",
+      "first_seen": "D1-LEA-01-3-cd0e6629",
+      "appears_in": [
+        "D1-LEA-01-3-cd0e6629"
+      ],
+      "created_at": "2026-04-26T23:50:02.321724+00:00"
+    },
+    "contiguity-insufficiency": {
+      "label": "Insufficiency of Contiguity",
+      "description": "Blocking demonstrates that mere co-occurrence in time of a stimulus and US is not sufficient for conditioning; informational value is required.",
+      "first_seen": "D1-LEA-01-3-cd0e6629",
+      "appears_in": [
+        "D1-LEA-01-3-cd0e6629"
+      ],
+      "created_at": "2026-04-26T23:50:02.321733+00:00"
+    },
+    "klinefelter-syndrome": {
+      "label": "Klinefelter Syndrome",
+      "description": "A sex chromosome disorder in males caused by an extra X chromosome (47,XXY), characterized by tall stature, small testes, infertility, and other physical abnormalities.",
+      "first_seen": "D2-LIF-033-670066e8",
+      "appears_in": [
+        "D2-LIF-033-670066e8"
+      ],
+      "created_at": "2026-04-26T23:50:36.534663+00:00"
+    },
+    "xxy-karyotype": {
+      "label": "47,XXY Karyotype",
+      "description": "The chromosomal configuration in which a male has an extra X chromosome, defining Klinefelter syndrome (vs. typical male 46,XY).",
+      "first_seen": "D2-LIF-033-670066e8",
+      "appears_in": [
+        "D2-LIF-033-670066e8"
+      ],
+      "created_at": "2026-04-26T23:50:36.534697+00:00"
+    },
+    "turner-syndrome": {
+      "label": "Turner Syndrome",
+      "description": "A contrasting sex chromosome disorder (45,X) that affects females via a missing or partial X chromosome.",
+      "first_seen": "D2-LIF-033-670066e8",
+      "appears_in": [
+        "D2-LIF-033-670066e8"
+      ],
+      "created_at": "2026-04-26T23:50:36.534707+00:00"
+    },
+    "down-syndrome": {
+      "label": "Down Syndrome",
+      "description": "An autosomal trisomy involving an extra copy of chromosome 21, not a sex chromosome abnormality; named as a common trap distractor.",
+      "first_seen": "D2-LIF-033-670066e8",
+      "appears_in": [
+        "D2-LIF-033-670066e8"
+      ],
+      "created_at": "2026-04-26T23:50:36.534714+00:00"
+    },
+    "klinefelter-physical-features": {
+      "label": "Physical Features of Klinefelter Syndrome",
+      "description": "Tall stature, small testes (hypogonadism), infertility, and other physical abnormalities that emerge particularly at puberty in males with 47,XXY.",
+      "first_seen": "D2-LIF-033-670066e8",
+      "appears_in": [
+        "D2-LIF-033-670066e8"
+      ],
+      "created_at": "2026-04-26T23:50:36.534721+00:00"
+    },
+    "adhd-age-of-onset-criterion": {
+      "label": "ADHD Age of Onset Criterion (Before Age 12)",
+      "description": "DSM-5 requires that several inattentive or hyperactive-impulsive symptoms be present prior to age 12.",
+      "first_seen": "D3-PPA-034-60886d34",
+      "appears_in": [
+        "D3-PPA-034-60886d34"
+      ],
+      "created_at": "2026-04-26T23:51:14.180744+00:00"
+    },
+    "adhd-cross-setting-criterion": {
+      "label": "ADHD Two-Settings Criterion",
+      "description": "DSM-5 requires ADHD symptoms be present in two or more settings (e.g., home, school, work) to establish pervasiveness rather than situational specificity.",
+      "first_seen": "D3-PPA-034-60886d34",
+      "appears_in": [
+        "D3-PPA-034-60886d34"
+      ],
+      "created_at": "2026-04-26T23:51:14.180792+00:00"
+    },
+    "adhd-duration-criterion": {
+      "label": "ADHD Six-Month Duration Criterion",
+      "description": "DSM-5 requires that ADHD symptoms persist for at least 6 months.",
+      "first_seen": "D3-PPA-034-60886d34",
+      "appears_in": [
+        "D3-PPA-034-60886d34"
+      ],
+      "created_at": "2026-04-26T23:51:14.180804+00:00"
+    },
+    "dsm-iv-age-7-criterion": {
+      "label": "DSM-IV Age-7 Onset Criterion",
+      "description": "The prior DSM-IV criterion required ADHD symptoms to be present before age 7, which was raised to age 12 in DSM-5.",
+      "first_seen": "D3-PPA-034-60886d34",
+      "appears_in": [
+        "D3-PPA-034-60886d34"
+      ],
+      "created_at": "2026-04-26T23:51:14.180814+00:00"
+    },
+    "denial": {
+      "label": "Denial",
+      "description": "A defense mechanism in which the individual fails to recognize or accept the existence or meaning of an internal or external stimulus, particularly external reality.",
+      "first_seen": "D4-CLI-009-3f948ee3",
+      "appears_in": [
+        "D4-CLI-009-3f948ee3"
+      ],
+      "created_at": "2026-04-26T23:51:51.368660+00:00"
+    },
+    "defense-mechanism": {
+      "label": "Defense Mechanism",
+      "description": "A mental operation occurring outside of awareness whose function is to protect the person from experiencing excessive anxiety.",
+      "first_seen": "D4-CLI-009-3f948ee3",
+      "appears_in": [
+        "D4-CLI-009-3f948ee3"
+      ],
+      "created_at": "2026-04-26T23:51:51.368704+00:00"
+    },
+    "repression": {
+      "label": "Repression",
+      "description": "A defense mechanism that pushes threatening internal impulses, memories, or wishes out of conscious awareness.",
+      "first_seen": "D4-CLI-009-3f948ee3",
+      "appears_in": [
+        "D4-CLI-009-3f948ee3"
+      ],
+      "created_at": "2026-04-26T23:51:51.368718+00:00"
+    },
+    "rationalization": {
+      "label": "Rationalization",
+      "description": "A defense mechanism in which the person acknowledges an event but creates a logical-sounding justification to make it acceptable.",
+      "first_seen": "D4-CLI-009-3f948ee3",
+      "appears_in": [
+        "D4-CLI-009-3f948ee3"
+      ],
+      "created_at": "2026-04-26T23:51:51.368727+00:00"
+    },
+    "unconscious-process": {
+      "label": "Unconscious Process",
+      "description": "Mental activity occurring outside of conscious awareness, the operational level at which defense mechanisms function.",
+      "first_seen": "D4-CLI-009-3f948ee3",
+      "appears_in": [
+        "D4-CLI-009-3f948ee3"
+      ],
+      "created_at": "2026-04-26T23:51:51.368760+00:00"
+    },
+    "immature-defense": {
+      "label": "Immature Defense",
+      "description": "In the psychodynamic hierarchy, denial is classified as immature/primitive because it involves a gross distortion of reality; it reduces anxiety short-term but prevents adaptive coping.",
+      "first_seen": "D4-CLI-009-3f948ee3",
+      "appears_in": [
+        "D4-CLI-009-3f948ee3"
+      ],
+      "created_at": "2026-04-26T23:51:51.368770+00:00"
+    },
+    "holland-realistic-type": {
+      "label": "Holland's Realistic Type",
+      "description": "RIASEC personality type defined by preferences for hands-on work with objects, tools, machines, and animals.",
+      "first_seen": "D6-ORG-015-a98f978e",
+      "appears_in": [
+        "D6-ORG-015-a98f978e"
+      ],
+      "created_at": "2026-04-27T00:33:29.474462+00:00"
+    },
+    "holland-investigative-type": {
+      "label": "Holland's Investigative Type",
+      "description": "RIASEC type characterized by preferences for analytical, scientific, and intellectual problem-solving activities.",
+      "first_seen": "D6-ORG-015-a98f978e",
+      "appears_in": [
+        "D6-ORG-015-a98f978e"
+      ],
+      "created_at": "2026-04-27T00:33:29.474493+00:00"
+    },
+    "holland-social-type": {
+      "label": "Holland's Social Type",
+      "description": "RIASEC type characterized by preferences for helping, teaching, and interpersonal activities; opposite Realistic on the hexagon.",
+      "first_seen": "D6-ORG-015-a98f978e",
+      "appears_in": [
+        "D6-ORG-015-a98f978e"
+      ],
+      "created_at": "2026-04-27T00:33:29.474499+00:00"
+    },
+    "holland-conventional-type": {
+      "label": "Holland's Conventional Type",
+      "description": "RIASEC type characterized by preferences for ordered, systematic work with data and records.",
+      "first_seen": "D6-ORG-015-a98f978e",
+      "appears_in": [
+        "D6-ORG-015-a98f978e"
+      ],
+      "created_at": "2026-04-27T00:33:29.474503+00:00"
+    },
+    "holland-enterprising-type": {
+      "label": "Holland's Enterprising Type",
+      "description": "RIASEC type characterized by preferences for leading, persuading, and influencing people for organizational or economic goals.",
+      "first_seen": "D6-ORG-015-a98f978e",
+      "appears_in": [
+        "D6-ORG-015-a98f978e"
+      ],
+      "created_at": "2026-04-27T00:33:29.474514+00:00"
+    },
+    "self-directed-search": {
+      "label": "Self-Directed Search (SDS)",
+      "description": "Holland's self-administered interest inventory that measures resemblance to each of the six RIASEC types and generates a three-letter summary code.",
+      "first_seen": "D6-ORG-015-a98f978e",
+      "appears_in": [
+        "D6-ORG-015-a98f978e"
+      ],
+      "created_at": "2026-04-27T00:33:29.474518+00:00"
+    },
+    "riasec-hexagon": {
+      "label": "RIASEC Hexagonal Model",
+      "description": "Holland's hexagonal arrangement of the six types showing degrees of similarity, with opposite types being most dissimilar.",
+      "first_seen": "D6-ORG-015-a98f978e",
+      "appears_in": [
+        "D6-ORG-015-a98f978e"
+      ],
+      "created_at": "2026-04-27T00:33:29.474521+00:00"
+    },
+    "person-environment-congruence": {
+      "label": "Person-Environment Congruence",
+      "description": "Holland's prediction that career satisfaction and stability are maximized when an individual's personality type matches the work environment's characteristics.",
+      "first_seen": "D6-ORG-015-a98f978e",
+      "appears_in": [
+        "D6-ORG-015-a98f978e"
+      ],
+      "created_at": "2026-04-27T00:33:29.474524+00:00"
+    },
+    "actor-observer-effect": {
+      "label": "Actor-Observer Effect",
+      "description": "The tendency for actors to attribute their own behavior to situational factors while observers attribute the same behavior to dispositional factors.",
+      "first_seen": "D5-SOC-01-2-78bdc25a",
+      "appears_in": [
+        "D5-SOC-01-2-78bdc25a"
+      ],
+      "created_at": "2026-04-27T03:07:08.883661+00:00"
+    },
+    "situational-attribution": {
+      "label": "Situational Attribution",
+      "description": "Explaining behavior in terms of external circumstances such as task difficulty or social pressure.",
+      "first_seen": "D5-SOC-01-2-78bdc25a",
+      "appears_in": [
+        "D5-SOC-01-2-78bdc25a"
+      ],
+      "created_at": "2026-04-27T03:07:08.883831+00:00"
+    },
+    "dispositional-attribution": {
+      "label": "Dispositional Attribution",
+      "description": "Explaining behavior in terms of internal characteristics such as personality traits or abilities.",
+      "first_seen": "D5-SOC-01-2-78bdc25a",
+      "appears_in": [
+        "D5-SOC-01-2-78bdc25a"
+      ],
+      "created_at": "2026-04-27T03:07:08.883848+00:00"
+    },
+    "perceptual-salience": {
+      "label": "Perceptual Salience",
+      "description": "The mechanism by which the actor is the most salient feature for an observer (drawing dispositional focus), while the situation is most salient to the actor looking outward (drawing situational focus).",
+      "first_seen": "D5-SOC-01-2-78bdc25a",
+      "appears_in": [
+        "D5-SOC-01-2-78bdc25a"
+      ],
+      "created_at": "2026-04-27T03:07:08.883859+00:00"
+    },
+    "informational-access": {
+      "label": "Informational Access / Behavioral Variability",
+      "description": "Actors have knowledge of how their behavior varies across situations, while observers typically see only a single instance and lack this variability information.",
+      "first_seen": "D5-SOC-01-2-78bdc25a",
+      "appears_in": [
+        "D5-SOC-01-2-78bdc25a"
+      ],
+      "created_at": "2026-04-27T03:07:08.883885+00:00"
+    },
+    "negative-outcome-boundary": {
+      "label": "Negative Outcome Boundary Condition",
+      "description": "The actor-observer effect is most consistent for negative outcomes; for positive outcomes, actors may take credit dispositionally and the effect can reverse.",
+      "first_seen": "D5-SOC-01-2-78bdc25a",
+      "appears_in": [
+        "D5-SOC-01-2-78bdc25a"
+      ],
+      "created_at": "2026-04-27T03:07:08.883898+00:00"
+    },
+    "theory-of-work-adjustment": {
+      "label": "Theory of Work Adjustment (TWA)",
+      "description": "Dawis and Lofquist's person-environment fit model predicting that correspondence between worker and work environment leads to satisfaction, satisfactoriness, and tenure.",
+      "first_seen": "D6-ORG-108-c7118163",
+      "appears_in": [
+        "D6-ORG-108-c7118163"
+      ],
+      "created_at": "2026-04-27T03:08:09.206581+00:00"
+    },
+    "satisfaction-twa": {
+      "label": "Satisfaction (TWA)",
+      "description": "The worker's contentment resulting from the correspondence between their needs and the job's reinforcers.",
+      "first_seen": "D6-ORG-108-c7118163",
+      "appears_in": [
+        "D6-ORG-108-c7118163"
+      ],
+      "created_at": "2026-04-27T03:08:09.206695+00:00"
+    },
+    "satisfactoriness-twa": {
+      "label": "Satisfactoriness (TWA)",
+      "description": "The employer's evaluation of the worker, resulting from correspondence between the worker's abilities and the job's skill requirements.",
+      "first_seen": "D6-ORG-108-c7118163",
+      "appears_in": [
+        "D6-ORG-108-c7118163"
+      ],
+      "created_at": "2026-04-27T03:08:09.206716+00:00"
+    },
+    "tenure-twa": {
+      "label": "Tenure (TWA)",
+      "description": "The ultimate outcome variable in TWA, representing the duration of the employment relationship that results from both satisfaction and satisfactoriness.",
+      "first_seen": "D6-ORG-108-c7118163",
+      "appears_in": [
+        "D6-ORG-108-c7118163"
+      ],
+      "created_at": "2026-04-27T03:08:09.206730+00:00"
+    },
+    "person-environment-fit": {
+      "label": "Person-Environment Fit",
+      "description": "A class of vocational theories proposing that work outcomes depend on the match between individual characteristics and environmental characteristics.",
+      "first_seen": "D6-ORG-108-c7118163",
+      "appears_in": [
+        "D6-ORG-108-c7118163"
+      ],
+      "created_at": "2026-04-27T03:08:09.206741+00:00"
+    },
+    "implied-consent": {
+      "label": "Implied Consent",
+      "description": "Consent inferred from a person's actions, behaviors, or surrounding circumstances rather than from explicit verbal or written agreement.",
+      "first_seen": "D9-ETH-209-bc1d85fa",
+      "appears_in": [
+        "D9-ETH-209-bc1d85fa"
+      ],
+      "created_at": "2026-04-27T03:12:43.950221+00:00"
+    },
+    "express-consent": {
+      "label": "Express Consent",
+      "description": "Consent communicated through a clear verbal or written statement of agreement, contrasted with implied consent.",
+      "first_seen": "D9-ETH-209-bc1d85fa",
+      "appears_in": [
+        "D9-ETH-209-bc1d85fa"
+      ],
+      "created_at": "2026-04-27T03:12:43.950254+00:00"
+    },
+    "informed-consent": {
+      "label": "Informed Consent",
+      "description": "The thorough consent process mandated by the APA Ethics Code for ongoing therapy, assessment, or research; not satisfied by implied consent alone.",
+      "first_seen": "D9-ETH-209-bc1d85fa",
+      "appears_in": [
+        "D9-ETH-209-bc1d85fa"
+      ],
+      "created_at": "2026-04-27T03:12:43.950306+00:00"
+    },
+    "reasonableness-standard": {
+      "label": "Reasonableness Standard",
+      "description": "The legal and ethical basis for implied consent: whether a reasonable person in the same circumstances would consent to the action being performed.",
+      "first_seen": "D9-ETH-209-bc1d85fa",
+      "appears_in": [
+        "D9-ETH-209-bc1d85fa"
+      ],
+      "created_at": "2026-04-27T03:12:43.950312+00:00"
+    },
+    "limitations-of-implied-consent": {
+      "label": "Limitations of Implied Consent",
+      "description": "Implied consent applies only to actions a reasonable person would consent to, does not authorize invasive or non-routine procedures, can be overridden by any indication of refusal (including nonverbal), and is limited to immediate needs.",
+      "first_seen": "D9-ETH-209-bc1d85fa",
+      "appears_in": [
+        "D9-ETH-209-bc1d85fa"
+      ],
+      "created_at": "2026-04-27T03:12:43.950320+00:00"
+    },
+    "apa-standard-9-06": {
+      "label": "APA Ethics Code Standard 9.06",
+      "description": "Standard permitting psychologists to use a qualified interpreter when evaluating examinees with limited English proficiency, while requiring documentation of possible limitations of the results.",
+      "first_seen": "D8-ETH-013-1272bf8a",
+      "appears_in": [
+        "D8-ETH-013-1272bf8a"
+      ],
+      "created_at": "2026-04-27T03:14:06.576252+00:00"
+    },
+    "qualified-interpreter-use": {
+      "label": "Use of Qualified Interpreter in Assessment",
+      "description": "Use of an interpreter who is fluent in both languages and trained in standardized assessment procedures, including translating items accurately without adding interpretation, explanation, simplification, coaching, or prompting.",
+      "first_seen": "D8-ETH-013-1272bf8a",
+      "appears_in": [
+        "D8-ETH-013-1272bf8a"
+      ],
+      "created_at": "2026-04-27T03:14:06.576279+00:00"
+    },
+    "documentation-of-limitations": {
+      "label": "Documentation of Assessment Limitations",
+      "description": "The requirement to explicitly note in the report that an interpreter was used, describe interpreter qualifications, and specify limitations affecting score interpretation (e.g., deviations from standardization, translation nuance, third-party presence, cultural factors).",
+      "first_seen": "D8-ETH-013-1272bf8a",
+      "appears_in": [
+        "D8-ETH-013-1272bf8a"
+      ],
+      "created_at": "2026-04-27T03:14:06.576286+00:00"
+    },
+    "apa-standard-9-02c": {
+      "label": "APA Ethics Code Standard 9.02(c)",
+      "description": "Related standard requiring psychologists to use assessment methods appropriate to an individual's language preference and competence, unless the alternative language is itself relevant to the assessment question.",
+      "first_seen": "D8-ETH-013-1272bf8a",
+      "appears_in": [
+        "D8-ETH-013-1272bf8a"
+      ],
+      "created_at": "2026-04-27T03:14:06.576292+00:00"
+    },
+    "limited-english-proficiency-assessment": {
+      "label": "Assessment of Examinees with Limited English Proficiency",
+      "description": "Special considerations required when standardized instruments are not available in the examinee's preferred language, including potentially using an interpreter and supplementing with observations, interviews, records review, and nonverbal measures.",
+      "first_seen": "D8-ETH-013-1272bf8a",
+      "appears_in": [
+        "D8-ETH-013-1272bf8a"
+      ],
+      "created_at": "2026-04-27T03:14:06.576297+00:00"
+    },
+    "interpreted-scores-norm-caution": {
+      "label": "Caution Interpreting Scores from Interpreted Administration",
+      "description": "Because interpreter use introduces variables outside the test's standardization, scores must be interpreted with caution and not directly compared to norms based on standard English-language administration.",
+      "first_seen": "D8-ETH-013-1272bf8a",
+      "appears_in": [
+        "D8-ETH-013-1272bf8a"
+      ],
+      "created_at": "2026-04-27T03:14:06.576301+00:00"
+    },
+    "apa-standard-9-09": {
+      "label": "APA Ethics Code Standard 9.09 (Test Scoring and Interpretation Services)",
+      "description": "Standard establishing that psychologists retain professional responsibility for the validity and appropriateness of conclusions derived from assessment, including when automated scoring or interpretation services are used.",
+      "first_seen": "D8-ETH-23-1-b811ddf1",
+      "appears_in": [
+        "D8-ETH-23-1-b811ddf1"
+      ],
+      "created_at": "2026-04-27T03:14:53.958303+00:00"
+    },
+    "automated-test-interpretation": {
+      "label": "Automated test scoring and interpretation services",
+      "description": "Computer-based services that generate scores and narrative interpretive reports from psychological test data (e.g., MMPI-2 interpretive reports), based solely on the pattern of test scores without contextual information.",
+      "first_seen": "D8-ETH-23-1-b811ddf1",
+      "appears_in": [
+        "D8-ETH-23-1-b811ddf1"
+      ],
+      "created_at": "2026-04-27T03:14:53.958322+00:00"
+    },
+    "professional-responsibility": {
+      "label": "Professional responsibility in assessment",
+      "description": "The psychologist's nondelegable duty for the validity, appropriateness, and integration of assessment conclusions, regardless of whether scoring is done by hand or by computer.",
+      "first_seen": "D8-ETH-23-1-b811ddf1",
+      "appears_in": [
+        "D8-ETH-23-1-b811ddf1"
+      ],
+      "created_at": "2026-04-27T03:14:53.958328+00:00"
+    },
+    "clinical-integration-of-test-data": {
+      "label": "Clinical integration of test data",
+      "description": "The process of combining automated test interpretations with clinical observations, client history, and other assessment data to produce a comprehensive, individualized report.",
+      "first_seen": "D8-ETH-23-1-b811ddf1",
+      "appears_in": [
+        "D8-ETH-23-1-b811ddf1"
+      ],
+      "created_at": "2026-04-27T03:14:53.958333+00:00"
+    },
+    "validity-of-interpretive-algorithms": {
+      "label": "Validity of interpretive algorithms",
+      "description": "The psychologist's obligation to ensure the chosen automated scoring service has adequate research support for its interpretive algorithms and to be competent to evaluate the quality of its output.",
+      "first_seen": "D8-ETH-23-1-b811ddf1",
+      "appears_in": [
+        "D8-ETH-23-1-b811ddf1"
+      ],
+      "created_at": "2026-04-27T03:14:53.958343+00:00"
+    },
+    "standard-10-10-termination": {
+      "label": "APA Standard 10.10 (Terminating Therapy)",
+      "description": "Requires psychologists to terminate or refer when the client is not likely to benefit from continued service, and discourages providing services unlikely to be beneficial.",
+      "first_seen": "D8-ETH-024-c7600a57",
+      "appears_in": [
+        "D8-ETH-024-c7600a57",
+        "D8-ETH-216-1-7bc577bb"
+      ],
+      "created_at": "2026-04-27T03:15:36.607382+00:00"
+    },
+    "appropriate-referral": {
+      "label": "Appropriate Referral to a Compatible Provider",
+      "description": "The ethical obligation to refer clients to a provider whose approach fits the client's available circumstances when the psychologist's own modality cannot be implemented.",
+      "first_seen": "D8-ETH-024-c7600a57",
+      "appears_in": [
+        "D8-ETH-024-c7600a57"
+      ],
+      "created_at": "2026-04-27T03:15:36.607490+00:00"
+    },
+    "boundaries-of-competence": {
+      "label": "Standard 2.01 Boundaries of Competence",
+      "description": "Psychologists provide services only within the boundaries of their training, experience, and competence; a therapist trained only in whole-family approaches should recognize this limit.",
+      "first_seen": "D8-ETH-024-c7600a57",
+      "appears_in": [
+        "D8-ETH-024-c7600a57"
+      ],
+      "created_at": "2026-04-27T03:15:36.607502+00:00"
+    },
+    "therapeutic-fit": {
+      "label": "Therapeutic Fit",
+      "description": "The match between a therapist's theoretical model (e.g., strategic, structural, Bowenian vs. whole-family-only) and the client's available circumstances, including which family members can participate.",
+      "first_seen": "D8-ETH-024-c7600a57",
+      "appears_in": [
+        "D8-ETH-024-c7600a57"
+      ],
+      "created_at": "2026-04-27T03:15:36.607541+00:00"
+    },
+    "transition-support": {
+      "label": "Transition Support During Referral",
+      "description": "Providing specific referrals, coordinating with the new provider with appropriate consent, and explaining the rationale to the client without assigning blame, to ensure continuity of care and avoid abandonment.",
+      "first_seen": "D8-ETH-024-c7600a57",
+      "appears_in": [
+        "D8-ETH-024-c7600a57"
+      ],
+      "created_at": "2026-04-27T03:15:36.607548+00:00"
+    },
+    "preferred-treatment-modality": {
+      "label": "Preferred Treatment Modality",
+      "description": "The therapeutic approach a psychologist uses based on their training and theoretical orientation (e.g., requiring full family participation in every session).",
+      "first_seen": "D8-ETH-024-c7600a57",
+      "appears_in": [
+        "D8-ETH-024-c7600a57"
+      ],
+      "created_at": "2026-04-27T03:15:36.607602+00:00"
+    },
+    "no-longer-benefiting-criterion": {
+      "label": "No-Longer-Benefiting Criterion",
+      "description": "Clinical judgment that the client has met treatment goals, plateaued in symptom improvement, or no longer shows therapeutic gains, and that no new goals can be identified.",
+      "first_seen": "D8-ETH-216-1-7bc577bb",
+      "appears_in": [
+        "D8-ETH-216-1-7bc577bb"
+      ],
+      "created_at": "2026-04-27T03:16:21.444350+00:00"
+    },
+    "beneficence-nonmaleficence": {
+      "label": "Beneficence and Nonmaleficence",
+      "description": "Underlying ethical principles requiring psychologists to act in the client's best interest and avoid harm, which includes ending treatment that has ceased to provide meaningful benefit.",
+      "first_seen": "D8-ETH-216-1-7bc577bb",
+      "appears_in": [
+        "D8-ETH-216-1-7bc577bb"
+      ],
+      "created_at": "2026-04-27T03:16:21.444402+00:00"
+    },
+    "canadian-code-of-ethics": {
+      "label": "Canadian Code of Ethics for Psychologists",
+      "description": "Ethics code that, like APA, directs psychologists to discontinue therapy when the client is not benefiting.",
+      "first_seen": "D8-ETH-216-1-7bc577bb",
+      "appears_in": [
+        "D8-ETH-216-1-7bc577bb"
+      ],
+      "created_at": "2026-04-27T03:16:21.444409+00:00"
+    },
+    "pretermination-counseling": {
+      "label": "Pretermination Counseling",
+      "description": "Ethical termination process that involves discussing reasons for ending treatment, summarizing progress, reinforcing skills, addressing client concerns, and providing referrals for future resources.",
+      "first_seen": "D8-ETH-216-1-7bc577bb",
+      "appears_in": [
+        "D8-ETH-216-1-7bc577bb",
+        "D9-ETH-08-3-70dc138b"
+      ],
+      "created_at": "2026-04-27T03:16:21.444418+00:00"
+    },
+    "new-goals-exception": {
+      "label": "New Goals Exception",
+      "description": "If therapist and client can identify legitimate new clinical goals (e.g., a newly revealed issue), continuation is appropriate; continuation must be justified by client need, not therapist interest.",
+      "first_seen": "D8-ETH-216-1-7bc577bb",
+      "appears_in": [
+        "D8-ETH-216-1-7bc577bb"
+      ],
+      "created_at": "2026-04-27T03:16:21.444424+00:00"
+    },
+    "exploitation-and-dependency-risk": {
+      "label": "Exploitation and Undue Dependency",
+      "description": "Continuing therapy when the client is no longer benefiting risks exploiting the client financially and fostering unnecessary dependency, undermining autonomy.",
+      "first_seen": "D8-ETH-216-1-7bc577bb",
+      "appears_in": [
+        "D8-ETH-216-1-7bc577bb"
+      ],
+      "created_at": "2026-04-27T03:16:21.444429+00:00"
+    },
+    "psypact": {
+      "label": "PSYPACT (Psychology Interjurisdictional Compact)",
+      "description": "An interjurisdictional compact that, when enacted by both the psychologist's home state and the client's destination state, authorizes telepsychology practice across participating states via the APIT credential.",
+      "first_seen": "D8-ETH-169-dd468292",
+      "appears_in": [
+        "D8-ETH-169-dd468292"
+      ],
+      "created_at": "2026-04-27T03:17:07.015383+00:00"
+    },
+    "client-location-rule": {
+      "label": "Client Location Rule",
+      "description": "The legal principle that psychological services are deemed provided in the jurisdiction where the client is physically located at the time of the session, not where the psychologist is located.",
+      "first_seen": "D8-ETH-169-dd468292",
+      "appears_in": [
+        "D8-ETH-169-dd468292"
+      ],
+      "created_at": "2026-04-27T03:17:07.015467+00:00"
+    },
+    "destination-state-authorization": {
+      "label": "Destination State Authorization",
+      "description": "Independent of PSYPACT, a non-PSYPACT destination state's own laws (e.g., temporary practice provisions, telehealth guest licenses) may permit out-of-state psychologists to provide services within its borders.",
+      "first_seen": "D8-ETH-169-dd468292",
+      "appears_in": [
+        "D8-ETH-169-dd468292"
+      ],
+      "created_at": "2026-04-27T03:17:07.015475+00:00"
+    },
+    "telehealth-jurisdiction": {
+      "label": "Telehealth Jurisdictional Practice",
+      "description": "Cross-state delivery of psychological services via videoconferencing, which requires specific legal authorization in the client's state regardless of modality.",
+      "first_seen": "D8-ETH-169-dd468292",
+      "appears_in": [
+        "D8-ETH-169-dd468292"
+      ],
+      "created_at": "2026-04-27T03:17:07.015480+00:00"
+    },
+    "continuity-of-care-transfer": {
+      "label": "Continuity of Care and Transfer",
+      "description": "When continued cross-state telehealth is not legally permissible, the psychologist provides pretermination counseling, assists with referral to a qualified therapist in the new state, and facilitates record transfer with client consent.",
+      "first_seen": "D8-ETH-169-dd468292",
+      "appears_in": [
+        "D8-ETH-169-dd468292"
+      ],
+      "created_at": "2026-04-27T03:17:07.015485+00:00"
+    },
+    "apa-membership-action-triggers": {
+      "label": "APA Membership Action Triggers",
+      "description": "The specific conditions—state association expulsion/suspension or felony conviction—that authorize APA to act against a member.",
+      "first_seen": "D9-ETH-006-17ad4920",
+      "appears_in": [
+        "D9-ETH-006-17ad4920"
+      ],
+      "created_at": "2026-04-27T03:17:45.615852+00:00"
+    },
+    "state-association-discipline": {
+      "label": "State Psychological Association Discipline",
+      "description": "Disciplinary actions (expulsion or suspension) by an affiliated state psychological association that trigger APA's authority to act.",
+      "first_seen": "D9-ETH-006-17ad4920",
+      "appears_in": [
+        "D9-ETH-006-17ad4920"
+      ],
+      "created_at": "2026-04-27T03:17:45.615886+00:00"
+    },
+    "felony-conviction-trigger": {
+      "label": "Felony Conviction as Membership Trigger",
+      "description": "A felony conviction (not misdemeanor, not mere charge or arrest) is an independent basis for APA action against a member.",
+      "first_seen": "D9-ETH-006-17ad4920",
+      "appears_in": [
+        "D9-ETH-006-17ad4920"
+      ],
+      "created_at": "2026-04-27T03:17:45.615893+00:00"
+    },
+    "state-licensing-board-grounds": {
+      "label": "State Licensing Board Disciplinary Grounds",
+      "description": "Broader grounds—including misdemeanors, malpractice findings, and practice act violations—available to state licensing boards but not specified as APA membership triggers.",
+      "first_seen": "D9-ETH-006-17ad4920",
+      "appears_in": [
+        "D9-ETH-006-17ad4920"
+      ],
+      "created_at": "2026-04-27T03:17:45.615899+00:00"
+    },
+    "membership-vs-licensure-scope": {
+      "label": "Membership vs. Licensure Scope",
+      "description": "APA enforcement authority is limited to organizational membership; revocation of a psychologist's license to practice belongs exclusively to state licensing boards.",
+      "first_seen": "D9-ETH-006-17ad4920",
+      "appears_in": [
+        "D9-ETH-006-17ad4920"
+      ],
+      "created_at": "2026-04-27T03:17:45.615906+00:00"
+    },
+    "apa-standard-2-05-language": {
+      "label": "APA Standard 2.05 (Language Interpretation)",
+      "description": "Ethical standard requiring psychologists serving clients whose primary language differs from theirs to refer to a bilingual professional or obtain professional interpreter services, and prohibiting family members—especially children—from serving as interpreters.",
+      "first_seen": "D9-ETH-05-e209a1a7",
+      "appears_in": [
+        "D9-ETH-05-e209a1a7"
+      ],
+      "created_at": "2026-04-27T03:18:34.891952+00:00"
+    },
+    "professional-interpreter-services": {
+      "label": "Professional Interpreter Services",
+      "description": "Trained interpreters who follow confidentiality protocols, maintain emotional neutrality, accurately convey meaning and tone, and act as transparent conduits in therapy; the second-preference option when a bilingual therapist is unavailable.",
+      "first_seen": "D9-ETH-05-e209a1a7",
+      "appears_in": [
+        "D9-ETH-05-e209a1a7"
+      ],
+      "created_at": "2026-04-27T03:18:34.892000+00:00"
+    },
+    "bilingual-referral": {
+      "label": "Referral to Bilingual Therapist",
+      "description": "First-preference response to a language barrier: referring the client to a therapist who speaks their primary language, eliminating the need for interpretation and preserving therapeutic nuance, emotional expression, and cultural context.",
+      "first_seen": "D9-ETH-05-e209a1a7",
+      "appears_in": [
+        "D9-ETH-05-e209a1a7"
+      ],
+      "created_at": "2026-04-27T03:18:34.892019+00:00"
+    },
+    "family-member-as-interpreter": {
+      "label": "Family Member as Interpreter",
+      "description": "Ethically problematic practice of using relatives to interpret during therapy; raises concerns about bias, accuracy, dual roles, conflict of interest, distorted family power dynamics, and compromised confidentiality—heightened when the interpreter is a minor child.",
+      "first_seen": "D9-ETH-05-e209a1a7",
+      "appears_in": [
+        "D9-ETH-05-e209a1a7"
+      ],
+      "created_at": "2026-04-27T03:18:34.892025+00:00"
+    },
+    "child-interpreter-risks": {
+      "label": "Risks of Using a Child as Interpreter",
+      "description": "Specific harms when a minor family member interprets: dual role as client and interpreter, filtering/omitting content based on loyalties, controlling family communication flow, and exposure to developmentally inappropriate adult content.",
+      "first_seen": "D9-ETH-05-e209a1a7",
+      "appears_in": [
+        "D9-ETH-05-e209a1a7"
+      ],
+      "created_at": "2026-04-27T03:18:34.892036+00:00"
+    },
+    "apa-standard-1-02": {
+      "label": "APA Ethics Code Standard 1.02",
+      "description": "Standard governing conflicts between ethics and law, regulations, or other governing legal authority, permitting legal compliance unless it infringes on basic human rights.",
+      "first_seen": "D9-ETH-124-138125a9",
+      "appears_in": [
+        "D9-ETH-124-138125a9"
+      ],
+      "created_at": "2026-04-27T03:19:15.040309+00:00"
+    },
+    "fundamental-human-rights-floor": {
+      "label": "Fundamental Human Rights Floor",
+      "description": "The non-negotiable moral boundary established by Standard 1.02 below which legal compliance is not ethically permissible (e.g., torture, coerced treatment, discriminatory practices).",
+      "first_seen": "D9-ETH-124-138125a9",
+      "appears_in": [
+        "D9-ETH-124-138125a9"
+      ],
+      "created_at": "2026-04-27T03:19:15.040344+00:00"
+    },
+    "ethics-law-conflict": {
+      "label": "Ethics-Law Conflict",
+      "description": "A situation in which a psychologist's professional ethical obligations and legal requirements point in different directions, such as confidentiality vs. mandatory reporting, privilege vs. court-ordered disclosure, or informed consent vs. involuntary commitment.",
+      "first_seen": "D9-ETH-124-138125a9",
+      "appears_in": [
+        "D9-ETH-124-138125a9"
+      ],
+      "created_at": "2026-04-27T03:19:15.040353+00:00"
+    },
+    "conditional-permission": {
+      "label": "Conditional Permission to Comply",
+      "description": "Standard 1.02 permits (rather than mandates) legal compliance, conditional on the legal requirement not violating basic human rights.",
+      "first_seen": "D9-ETH-124-138125a9",
+      "appears_in": [
+        "D9-ETH-124-138125a9"
+      ],
+      "created_at": "2026-04-27T03:19:15.040361+00:00"
+    },
+    "reasonable-steps-to-resolve": {
+      "label": "Reasonable Steps to Resolve Conflicts",
+      "description": "Required process of making known one's commitment to the Ethics Code and taking reasonable steps to resolve the conflict consistent with the General Principles, including advocacy, legal counsel, or refusal in extreme cases.",
+      "first_seen": "D9-ETH-124-138125a9",
+      "appears_in": [
+        "D9-ETH-124-138125a9"
+      ],
+      "created_at": "2026-04-27T03:19:15.040368+00:00"
+    },
+    "standard-10-10a-termination": {
+      "label": "APA Standard 10.10(a) - Terminating Therapy",
+      "description": "Permits termination when client no longer needs service, won't benefit, is being harmed, or when personal feelings prevent effective treatment, with required pretermination counseling and referrals.",
+      "first_seen": "D9-ETH-08-3-70dc138b",
+      "appears_in": [
+        "D9-ETH-08-3-70dc138b"
+      ],
+      "created_at": "2026-04-27T03:19:59.834042+00:00"
+    },
+    "standard-2-06-personal-problems": {
+      "label": "APA Standard 2.06 - Personal Problems and Conflicts",
+      "description": "Requires psychologists to refrain from initiating or continuing professional activities when personal problems are likely to lead to harm.",
+      "first_seen": "D9-ETH-08-3-70dc138b",
+      "appears_in": [
+        "D9-ETH-08-3-70dc138b"
+      ],
+      "created_at": "2026-04-27T03:19:59.834074+00:00"
+    },
+    "self-awareness-of-impairment": {
+      "label": "Self-Awareness of Impairment",
+      "description": "The ethically positive recognition that one's personal reactions or problems may impair professional effectiveness, triggering protective action such as declining or referring.",
+      "first_seen": "D9-ETH-08-3-70dc138b",
+      "appears_in": [
+        "D9-ETH-08-3-70dc138b"
+      ],
+      "created_at": "2026-04-27T03:19:59.834080+00:00"
+    },
+    "continuity-of-care": {
+      "label": "Continuity of Care Obligation",
+      "description": "The duty to ensure clients have access to ongoing services through appropriate referrals when a psychologist cannot or will not continue treatment.",
+      "first_seen": "D9-ETH-08-3-70dc138b",
+      "appears_in": [
+        "D9-ETH-08-3-70dc138b"
+      ],
+      "created_at": "2026-04-27T03:19:59.834085+00:00"
+    },
+    "non-disclosure-of-personal-reason": {
+      "label": "Non-Disclosure of Personal Reason for Declining",
+      "description": "The Ethics Code does not require disclosing personal feelings as the reason for declining; the psychologist may simply state another provider would better suit the client's needs.",
+      "first_seen": "D9-ETH-08-3-70dc138b",
+      "appears_in": [
+        "D9-ETH-08-3-70dc138b"
+      ],
+      "created_at": "2026-04-27T03:19:59.834089+00:00"
+    },
+    "reasonable-person-standard": {
+      "label": "Reasonable Person Standard",
+      "description": "The legal and ethical foundation of implied consent, asking whether a reasonable person in the same circumstances would consent to the action being performed.",
+      "first_seen": "D9-ETH-209-bc1d85fa",
+      "appears_in": [
+        "D9-ETH-209-bc1d85fa"
+      ],
+      "created_at": "2026-04-27T03:20:39.601341+00:00"
+    },
+    "hemiplegia": {
+      "label": "Hemiplegia",
+      "description": "Complete loss of voluntary movement on one side of the body, caused by a contralateral cerebral lesion.",
+      "first_seen": "D7-PHY-209-121efeb4",
+      "appears_in": [
+        "D7-PHY-209-121efeb4"
+      ],
+      "created_at": "2026-04-27T06:22:46.942259+00:00"
+    },
+    "contralateral-motor-control": {
+      "label": "Contralateral Motor Control",
+      "description": "The principle that each cerebral hemisphere controls voluntary movement on the opposite side of the body.",
+      "first_seen": "D7-PHY-209-121efeb4",
+      "appears_in": [
+        "D7-PHY-209-121efeb4"
+      ],
+      "created_at": "2026-04-27T06:22:46.942456+00:00"
+    },
+    "corticospinal-tract-decussation": {
+      "label": "Corticospinal Tract Decussation",
+      "description": "The crossing of pyramidal motor fibers, which produces contralateral motor control and explains why a one-sided hemisphere lesion produces opposite-side paralysis.",
+      "first_seen": "D7-PHY-209-121efeb4",
+      "appears_in": [
+        "D7-PHY-209-121efeb4"
+      ],
+      "created_at": "2026-04-27T06:22:46.942482+00:00"
+    },
+    "cerebrovascular-stroke": {
+      "label": "Cerebrovascular Stroke (Thrombosis/Embolism)",
+      "description": "Disruption of cerebral blood flow due to clot formation (thrombosis) or migrating clot (embolism); the cause of hemiplegia identified by Twitchell (1951).",
+      "first_seen": "D7-PHY-209-121efeb4",
+      "appears_in": [
+        "D7-PHY-209-121efeb4"
+      ],
+      "created_at": "2026-04-27T06:22:46.942490+00:00"
+    },
+    "frontal-lobe-injury-triad": {
+      "label": "Frontal Lobe Injury Triad (Stuss & Knight)",
+      "description": "The three classic consequences of frontal lobe injury per Stuss & Knight (2002): reduced social spontaneity/initiative, emotional lability, and impaired planning/sequencing of goal-directed motor behavior.",
+      "first_seen": "D7-PHY-058-fedbfde8",
+      "appears_in": [
+        "D7-PHY-058-fedbfde8"
+      ],
+      "created_at": "2026-04-27T21:02:30.135194+00:00"
+    },
+    "reduced-spontaneity-initiative": {
+      "label": "Reduced Spontaneity and Initiative",
+      "description": "Diminished self-initiated social and behavioral activity following frontal lobe injury; patient does not initiate conversation or activity without prompting.",
+      "first_seen": "D7-PHY-058-fedbfde8",
+      "appears_in": [
+        "D7-PHY-058-fedbfde8"
+      ],
+      "created_at": "2026-04-27T21:02:30.135226+00:00"
+    },
+    "emotional-lability": {
+      "label": "Emotional Lability",
+      "description": "Fluctuations in mood (e.g., from apathy to irritability) following frontal lobe injury, reflecting disrupted emotional regulation.",
+      "first_seen": "D7-PHY-058-fedbfde8",
+      "appears_in": [
+        "D7-PHY-058-fedbfde8"
+      ],
+      "created_at": "2026-04-27T21:02:30.135234+00:00"
+    },
+    "impaired-planning-sequencing": {
+      "label": "Impaired Planning and Sequencing of Goal-Directed Motor Behavior",
+      "description": "Difficulty planning and ordering the steps needed to carry out complex, goal-directed motor actions, following frontal lobe injury.",
+      "first_seen": "D7-PHY-058-fedbfde8",
+      "appears_in": [
+        "D7-PHY-058-fedbfde8"
+      ],
+      "created_at": "2026-04-27T21:02:30.135243+00:00"
+    },
+    "left-hemisphere-language-dominance": {
+      "label": "Left-hemisphere language dominance",
+      "description": "The typical pattern in which language functions are primarily localized to the left cerebral hemisphere.",
+      "first_seen": "D7-PHY-06-2-30e4bc44",
+      "appears_in": [
+        "D7-PHY-06-2-30e4bc44"
+      ],
+      "created_at": "2026-04-27T23:47:54.310210+00:00"
+    },
+    "right-handed-language-lateralization": {
+      "label": "Language lateralization in right-handers",
+      "description": "Approximately 96% of right-handed individuals show left-hemisphere dominance for language (Rasmussen & Milner, 1977).",
+      "first_seen": "D7-PHY-06-2-30e4bc44",
+      "appears_in": [
+        "D7-PHY-06-2-30e4bc44"
+      ],
+      "created_at": "2026-04-27T23:47:54.310252+00:00"
+    },
+    "left-handed-language-lateralization": {
+      "label": "Language lateralization in left-handers",
+      "description": "Approximately 70% of left-handed individuals show left-hemisphere dominance for language (Rasmussen & Milner, 1977).",
+      "first_seen": "D7-PHY-06-2-30e4bc44",
+      "appears_in": [
+        "D7-PHY-06-2-30e4bc44"
+      ],
+      "created_at": "2026-04-27T23:47:54.310268+00:00"
+    },
+    "rasmussen-milner-1977": {
+      "label": "Rasmussen & Milner (1977)",
+      "description": "Landmark study establishing the population statistics for hemispheric language dominance based on handedness.",
+      "first_seen": "D7-PHY-06-2-30e4bc44",
+      "appears_in": [
+        "D7-PHY-06-2-30e4bc44"
+      ],
+      "created_at": "2026-04-27T23:47:54.310280+00:00"
+    },
+    "hippocampus": {
+      "label": "Hippocampus",
+      "description": "Seahorse-shaped medial temporal lobe structure (one per hemisphere) essential for consolidating new long-term declarative memories.",
+      "first_seen": "D7-PHY-076-33b34f79",
+      "appears_in": [
+        "D7-PHY-076-33b34f79"
+      ],
+      "created_at": "2026-04-28T04:04:22.788450+00:00"
+    },
+    "declarative-memory": {
+      "label": "Declarative (explicit) memory",
+      "description": "Conscious memory for facts (semantic) and personally experienced events (episodic) that depends on the hippocampus for initial consolidation.",
+      "first_seen": "D7-PHY-076-33b34f79",
+      "appears_in": [
+        "D7-PHY-076-33b34f79"
+      ],
+      "created_at": "2026-04-28T04:04:22.788482+00:00"
+    },
+    "anterograde-amnesia": {
+      "label": "Anterograde amnesia",
+      "description": "Inability to form new long-term declarative memories after brain damage; the hallmark consequence of bilateral hippocampal injury.",
+      "first_seen": "D7-PHY-076-33b34f79",
+      "appears_in": [
+        "D7-PHY-076-33b34f79"
+      ],
+      "created_at": "2026-04-28T04:04:22.788491+00:00"
+    },
+    "retrograde-amnesia": {
+      "label": "Retrograde amnesia",
+      "description": "Loss of memories formed before injury; after hippocampal damage typically shows a temporal gradient with remote memories better preserved than recent ones.",
+      "first_seen": "D7-PHY-076-33b34f79",
+      "appears_in": [
+        "D7-PHY-076-33b34f79"
+      ],
+      "created_at": "2026-04-28T04:04:22.788497+00:00"
+    },
+    "non-declarative-memory": {
+      "label": "Non-declarative (implicit) memory",
+      "description": "Memory systems (procedural skills, classical conditioning, priming) that do not depend on the hippocampus and are spared by hippocampal damage.",
+      "first_seen": "D7-PHY-076-33b34f79",
+      "appears_in": [
+        "D7-PHY-076-33b34f79"
+      ],
+      "created_at": "2026-04-28T04:04:22.788505+00:00"
+    },
+    "patient-hm": {
+      "label": "Patient H.M. (Henry Molaison)",
+      "description": "Underwent bilateral medial temporal lobe resection in 1953 for intractable epilepsy; retained pre-surgical memories and intelligence but could not form new declarative memories for the rest of his life.",
+      "first_seen": "D7-PHY-076-33b34f79",
+      "appears_in": [
+        "D7-PHY-076-33b34f79"
+      ],
+      "created_at": "2026-04-28T04:04:22.788514+00:00"
+    },
+    "dlb-diagnostic-algorithm": {
+      "label": "DLB Diagnostic Algorithm (DSM-5)",
+      "description": "Probable DLB requires either 2 core features or 1 core + 1 suggestive feature.",
+      "first_seen": "D7-PPA-013-1806f9a7",
+      "appears_in": [
+        "D7-PPA-013-1806f9a7"
+      ],
+      "created_at": "2026-04-29T08:07:27.905009+00:00"
+    },
+    "dlb-core-features": {
+      "label": "DLB Core Features",
+      "description": "Fluctuating cognition, recurrent visual hallucinations, and spontaneous parkinsonism subsequent to cognitive decline.",
+      "first_seen": "D7-PPA-013-1806f9a7",
+      "appears_in": [
+        "D7-PPA-013-1806f9a7"
+      ],
+      "created_at": "2026-04-29T08:07:27.905050+00:00"
+    },
+    "dlb-suggestive-features": {
+      "label": "DLB Suggestive Features",
+      "description": "REM sleep behavior disorder, severe neuroleptic sensitivity, and low dopamine transporter uptake in basal ganglia.",
+      "first_seen": "D7-PPA-013-1806f9a7",
+      "appears_in": [
+        "D7-PPA-013-1806f9a7"
+      ],
+      "created_at": "2026-04-29T08:07:27.905061+00:00"
+    },
+    "parkinsonism-temporal-sequence": {
+      "label": "Parkinsonism Onset Timing",
+      "description": "For DLB, parkinsonism must develop subsequent to (or concurrently with) cognitive decline; reversed timing suggests a different diagnosis.",
+      "first_seen": "D7-PPA-013-1806f9a7",
+      "appears_in": [
+        "D7-PPA-013-1806f9a7"
+      ],
+      "created_at": "2026-04-29T08:07:27.905067+00:00"
+    },
+    "visual-hallucination-character": {
+      "label": "Characteristic Visual Hallucinations in DLB",
+      "description": "DLB hallucinations are well-formed, detailed, and vivid — often people, animals, or small figures — and the visual modality specifically is the core feature.",
+      "first_seen": "D7-PPA-013-1806f9a7",
+      "appears_in": [
+        "D7-PPA-013-1806f9a7"
+      ],
+      "created_at": "2026-04-29T08:07:27.905074+00:00"
+    },
+    "wais-iv-gai": {
+      "label": "WAIS-IV General Ability Index (GAI)",
+      "description": "A supplementary composite score derived from VCI and PRI subtests that estimates general intellectual ability while minimizing the influence of WMI and PSI.",
+      "first_seen": "D8-PAS-001-abf4cdf1",
+      "appears_in": [
+        "D8-PAS-001-abf4cdf1"
+      ],
+      "created_at": "2026-04-29T08:18:37.786268+00:00"
+    },
+    "wais-iv-fsiq": {
+      "label": "WAIS-IV Full Scale IQ (FSIQ)",
+      "description": "The primary composite score reflecting overall cognitive functioning, derived from all four indices (VCI, PRI, WMI, PSI).",
+      "first_seen": "D8-PAS-001-abf4cdf1",
+      "appears_in": [
+        "D8-PAS-001-abf4cdf1"
+      ],
+      "created_at": "2026-04-29T08:18:37.786296+00:00"
+    },
+    "verbal-comprehension-index": {
+      "label": "Verbal Comprehension Index (VCI)",
+      "description": "WAIS-IV index measuring verbal/crystallized abilities via Similarities, Vocabulary, and Information.",
+      "first_seen": "D8-PAS-001-abf4cdf1",
+      "appears_in": [
+        "D8-PAS-001-abf4cdf1"
+      ],
+      "created_at": "2026-04-29T08:18:37.786305+00:00"
+    },
+    "perceptual-reasoning-index": {
+      "label": "Perceptual Reasoning Index (PRI)",
+      "description": "WAIS-IV index measuring fluid/nonverbal reasoning via Block Design, Matrix Reasoning, and Visual Puzzles.",
+      "first_seen": "D8-PAS-001-abf4cdf1",
+      "appears_in": [
+        "D8-PAS-001-abf4cdf1"
+      ],
+      "created_at": "2026-04-29T08:18:37.786312+00:00"
+    },
+    "wmi-psi-cognitive-efficiency": {
+      "label": "WMI and PSI (cognitive efficiency)",
+      "description": "Working Memory and Processing Speed indices, which capture cognitive efficiency rather than core reasoning ability and are excluded from the GAI.",
+      "first_seen": "D8-PAS-001-abf4cdf1",
+      "appears_in": [
+        "D8-PAS-001-abf4cdf1"
+      ],
+      "created_at": "2026-04-29T08:18:37.786318+00:00"
+    },
+    "secondary-circular-reactions": {
+      "label": "Secondary Circular Reactions (Substage 3)",
+      "description": "Sensorimotor substage 3 (~4–8 months) in which infants repeat actions that produce interesting effects on external objects or people.",
+      "first_seen": "D2-LIF-003-7c1fb19c",
+      "appears_in": [
+        "D2-LIF-003-7c1fb19c"
+      ],
+      "created_at": "2026-04-29T08:21:54.009793+00:00"
+    },
+    "primary-circular-reactions": {
+      "label": "Primary Circular Reactions (Substage 2)",
+      "description": "Sensorimotor substage 2 (~1–4 months) in which infants repeat actions centered on their own body (e.g., thumb-sucking).",
+      "first_seen": "D2-LIF-003-7c1fb19c",
+      "appears_in": [
+        "D2-LIF-003-7c1fb19c"
+      ],
+      "created_at": "2026-04-29T08:21:54.009822+00:00"
+    },
+    "tertiary-circular-reactions": {
+      "label": "Tertiary Circular Reactions (Substage 5)",
+      "description": "Sensorimotor substage 5 (~12–18 months) in which infants deliberately vary actions to explore new effects, akin to little experiments.",
+      "first_seen": "D2-LIF-003-7c1fb19c",
+      "appears_in": [
+        "D2-LIF-003-7c1fb19c"
+      ],
+      "created_at": "2026-04-29T08:21:54.009831+00:00"
+    },
+    "sensorimotor-stage": {
+      "label": "Sensorimotor Stage",
+      "description": "Piaget's first stage of cognitive development, lasting approximately the first 18 months/2 years of life, characterized by pre-verbal sensory and motor exploration.",
+      "first_seen": "D2-LIF-003-7c1fb19c",
+      "appears_in": [
+        "D2-LIF-003-7c1fb19c"
+      ],
+      "created_at": "2026-04-29T08:21:54.009838+00:00"
+    },
+    "coordination-of-secondary-schemes": {
+      "label": "Coordination of Secondary Schemes (Substage 4)",
+      "description": "Sensorimotor substage 4 (~8–12 months) in which infants combine schemes intentionally to achieve goals and demonstrate means-end behavior.",
+      "first_seen": "D2-LIF-003-7c1fb19c",
+      "appears_in": [
+        "D2-LIF-003-7c1fb19c"
+      ],
+      "created_at": "2026-04-29T08:21:54.009846+00:00"
+    },
+    "serotonin-syndrome": {
+      "label": "Serotonin Syndrome",
+      "description": "A potentially life-threatening condition caused by excessive serotonergic activity in the CNS, characterized by autonomic instability, neuromuscular hyperactivity, and altered mental status.",
+      "first_seen": "D9-PHY-004-29c46a95",
+      "appears_in": [
+        "D9-PHY-004-29c46a95"
+      ],
+      "created_at": "2026-04-29T08:23:31.013306+00:00"
+    },
+    "ssri-maoi-combination": {
+      "label": "SSRI + MAOI Combination",
+      "description": "Concurrent use of an SSRI and MAOI compounds serotonergic activity through reuptake blockade and decreased breakdown, creating high risk for serotonin syndrome.",
+      "first_seen": "D9-PHY-004-29c46a95",
+      "appears_in": [
+        "D9-PHY-004-29c46a95"
+      ],
+      "created_at": "2026-04-29T08:23:31.013336+00:00"
+    },
+    "serotonin-syndrome-management": {
+      "label": "Serotonin Syndrome Management",
+      "description": "Immediate discontinuation of all serotonergic agents combined with supportive symptomatic medical treatment.",
+      "first_seen": "D9-PHY-004-29c46a95",
+      "appears_in": [
+        "D9-PHY-004-29c46a95"
+      ],
+      "created_at": "2026-04-29T08:23:31.013345+00:00"
+    },
+    "neuroleptic-malignant-syndrome": {
+      "label": "Neuroleptic Malignant Syndrome (NMS)",
+      "description": "A condition associated with antipsychotics characterized by lead-pipe rigidity, elevated CPK, hyperthermia, and slower onset; commonly confused with serotonin syndrome.",
+      "first_seen": "D9-PHY-004-29c46a95",
+      "appears_in": [
+        "D9-PHY-004-29c46a95"
+      ],
+      "created_at": "2026-04-29T08:23:31.013353+00:00"
+    },
+    "ssri-washout-period": {
+      "label": "SSRI-to-MAOI Washout Period",
+      "description": "The required interval between discontinuing an SSRI and starting an MAOI (typically 2 weeks; 5 weeks for fluoxetine) to prevent serotonin syndrome.",
+      "first_seen": "D9-PHY-004-29c46a95",
+      "appears_in": [
+        "D9-PHY-004-29c46a95"
+      ],
+      "created_at": "2026-04-29T08:23:31.013360+00:00"
+    },
+    "standard-error-of-the-mean": {
+      "label": "Standard Error of the Mean (SEM)",
+      "description": "The standard deviation of the sampling distribution of the mean, computed as sigma/√n, indexing the precision of a sample mean as an estimate of the population mean.",
+      "first_seen": "D1-RMS-002-1d02e270",
+      "appears_in": [
+        "D1-RMS-002-1d02e270"
+      ],
+      "created_at": "2026-04-29T08:24:17.257795+00:00"
+    },
+    "sampling-distribution-of-the-mean": {
+      "label": "Sampling Distribution of the Mean",
+      "description": "The theoretical distribution of sample means from repeated samples of size n drawn from a population; has mean mu and variance sigma^2/n.",
+      "first_seen": "D1-RMS-002-1d02e270",
+      "appears_in": [
+        "D1-RMS-002-1d02e270"
+      ],
+      "created_at": "2026-04-29T08:24:17.257818+00:00"
+    },
+    "population-standard-deviation": {
+      "label": "Population Standard Deviation (sigma)",
+      "description": "A measure of variability in the population from which samples are drawn; appears in the numerator of the SEM formula.",
+      "first_seen": "D1-RMS-002-1d02e270",
+      "appears_in": [
+        "D1-RMS-002-1d02e270"
+      ],
+      "created_at": "2026-04-29T08:24:17.257825+00:00"
+    },
+    "sample-size": {
+      "label": "Sample Size (N)",
+      "description": "The number of observations in a sample; appears under a square root in the denominator of the SEM formula.",
+      "first_seen": "D1-RMS-002-1d02e270",
+      "appears_in": [
+        "D1-RMS-002-1d02e270"
+      ],
+      "created_at": "2026-04-29T08:24:17.257831+00:00"
+    },
+    "confidence-interval-mean": {
+      "label": "Confidence Interval for the Mean",
+      "description": "An interval estimate constructed as sample mean ± critical value × SEM, whose width depends directly on the standard error.",
+      "first_seen": "D1-RMS-002-1d02e270",
+      "appears_in": [
+        "D1-RMS-002-1d02e270"
+      ],
+      "created_at": "2026-04-29T08:24:17.257836+00:00"
+    },
+    "ipt-medical-model": {
+      "label": "IPT's Medical Model Foundation",
+      "description": "IPT conceptualizes depression as an illness, framing the client's distress within a medical/illness paradigm.",
+      "first_seen": "D4-CLI-002-00f81410",
+      "appears_in": [
+        "D4-CLI-002-00f81410"
+      ],
+      "created_at": "2026-04-29T08:24:57.955515+00:00"
+    },
+    "sick-role": {
+      "label": "Sick Role in IPT",
+      "description": "A therapeutic stance assigned to the patient that legitimizes the illness, reduces self-blame, and conveys treatability.",
+      "first_seen": "D4-CLI-002-00f81410",
+      "appears_in": [
+        "D4-CLI-002-00f81410"
+      ],
+      "created_at": "2026-04-29T08:24:57.955592+00:00"
+    },
+    "ipt-self-blame-reduction": {
+      "label": "Self-Blame Reduction Function",
+      "description": "One purpose of the sick role: allowing patients to experience symptoms without holding themselves responsible for causing them.",
+      "first_seen": "D4-CLI-002-00f81410",
+      "appears_in": [
+        "D4-CLI-002-00f81410"
+      ],
+      "created_at": "2026-04-29T08:24:57.955620+00:00"
+    },
+    "ipt-treatability-framing": {
+      "label": "Treatability Framing Function",
+      "description": "The other purpose of the sick role: communicating to the patient that depression is a treatable illness with expected recovery.",
+      "first_seen": "D4-CLI-002-00f81410",
+      "appears_in": [
+        "D4-CLI-002-00f81410"
+      ],
+      "created_at": "2026-04-29T08:24:57.955640+00:00"
+    },
+    "job-analysis-first-step": {
+      "label": "Job Analysis as First Step",
+      "description": "Job analysis is the initial, foundational step in developing a performance appraisal instrument, preceding the design of rating forms, scales, or behavioral anchors.",
+      "first_seen": "D6-ORG-001-1-f870a1fc",
+      "appears_in": [
+        "D6-ORG-001-1-f870a1fc"
+      ],
+      "created_at": "2026-04-29T08:26:16.454184+00:00"
+    },
+    "ksaos": {
+      "label": "KSAOs (Knowledge, Skills, Abilities, Other Characteristics)",
+      "description": "The competencies and attributes identified by job analysis as essential for successful job performance; the output that defines the content domain of the appraisal.",
+      "first_seen": "D6-ORG-001-1-f870a1fc",
+      "appears_in": [
+        "D6-ORG-001-1-f870a1fc"
+      ],
+      "created_at": "2026-04-29T08:26:16.454212+00:00"
+    },
+    "content-validity-foundation": {
+      "label": "Content Validity / Job-Relatedness Foundation",
+      "description": "Because appraisal dimensions are derived from job analysis, the instrument can be defended as job-related; this evidentiary foundation is required by Title VII and the Uniform Guidelines.",
+      "first_seen": "D6-ORG-001-1-f870a1fc",
+      "appears_in": [
+        "D6-ORG-001-1-f870a1fc"
+      ],
+      "created_at": "2026-04-29T08:26:16.454243+00:00"
+    },
+    "job-analysis-methods": {
+      "label": "Job Analysis Methods",
+      "description": "Methods include interviews with incumbents/supervisors, observation, review of job descriptions, questionnaires (e.g., PAQ), and the critical incident technique; behaviorally detailed methods translate directly into rating anchors.",
+      "first_seen": "D6-ORG-001-1-f870a1fc",
+      "appears_in": [
+        "D6-ORG-001-1-f870a1fc"
+      ],
+      "created_at": "2026-04-29T08:26:16.454249+00:00"
+    },
+    "ksao-to-appraisal-translation": {
+      "label": "Translation of KSAOs into Appraisal Content",
+      "description": "After job analysis, KSAOs are used to define performance dimensions, develop rating scales, and create behavioral anchors or scoring criteria.",
+      "first_seen": "D6-ORG-001-1-f870a1fc",
+      "appears_in": [
+        "D6-ORG-001-1-f870a1fc"
+      ],
+      "created_at": "2026-04-29T08:26:16.454254+00:00"
+    },
+    "schizoaffective-disorder-dsm5": {
+      "label": "Schizoaffective Disorder (DSM-5)",
+      "description": "A psychotic disorder requiring concurrent mood and psychotic symptoms, plus a 2-week period of psychosis without mood episodes, with mood symptoms predominating across the illness.",
+      "first_seen": "D3-PPA-002-bfb13191",
+      "appears_in": [
+        "D3-PPA-002-bfb13191"
+      ],
+      "created_at": "2026-04-29T08:32:51.185966+00:00"
+    },
+    "criterion-a-schizophrenia": {
+      "label": "Criterion A Symptoms of Schizophrenia",
+      "description": "Active-phase psychotic symptoms (delusions, hallucinations, disorganized speech, grossly disorganized/catatonic behavior, negative symptoms) that must be concurrent with a mood episode to satisfy schizoaffective disorder's first criterion.",
+      "first_seen": "D3-PPA-002-bfb13191",
+      "appears_in": [
+        "D3-PPA-002-bfb13191"
+      ],
+      "created_at": "2026-04-29T08:32:51.185984+00:00"
+    },
+    "mood-disorder-with-psychotic-features": {
+      "label": "Mood Disorder with Psychotic Features",
+      "description": "A major depressive or bipolar disorder in which psychotic symptoms occur only during mood episodes, never independently — diagnosed when the 2-week psychosis-without-mood criterion of schizoaffective disorder is not met.",
+      "first_seen": "D3-PPA-002-bfb13191",
+      "appears_in": [
+        "D3-PPA-002-bfb13191"
+      ],
+      "created_at": "2026-04-29T08:32:51.185990+00:00"
+    },
+    "schizophrenia-dsm5": {
+      "label": "Schizophrenia (DSM-5)",
+      "description": "Psychotic disorder where mood episodes, if present, occupy only a minority of the total illness duration — diagnosed when the majority-duration mood criterion of schizoaffective disorder is not met.",
+      "first_seen": "D3-PPA-002-bfb13191",
+      "appears_in": [
+        "D3-PPA-002-bfb13191"
+      ],
+      "created_at": "2026-04-29T08:32:51.185995+00:00"
+    },
+    "longitudinal-diagnostic-approach": {
+      "label": "Longitudinal Symptom Course Analysis",
+      "description": "Diagnostic method that evaluates the temporal co-occurrence and independence of mood and psychotic symptoms over the entire active and residual course of illness, not just the current presentation.",
+      "first_seen": "D3-PPA-002-bfb13191",
+      "appears_in": [
+        "D3-PPA-002-bfb13191"
+      ],
+      "created_at": "2026-04-29T08:32:51.186000+00:00"
+    },
+    "inoculation-theory": {
+      "label": "McGuire's Inoculation Theory",
+      "description": "Theory that pre-exposing people to weakened counterarguments plus refutations builds resistance to later persuasion attempts, analogous to biological immunization.",
+      "first_seen": "D5-SOC-002-107651e6",
+      "appears_in": [
+        "D5-SOC-002-107651e6"
+      ],
+      "created_at": "2026-04-29T08:34:56.771032+00:00"
+    },
+    "refutational-defense": {
+      "label": "Refutational Defense",
+      "description": "Defense strategy that exposes the individual to weakened opposing arguments and provides refutations, strengthening resistance to persuasion.",
+      "first_seen": "D5-SOC-002-107651e6",
+      "appears_in": [
+        "D5-SOC-002-107651e6"
+      ],
+      "created_at": "2026-04-29T08:34:56.771056+00:00"
+    },
+    "supportive-defense": {
+      "label": "Supportive Defense",
+      "description": "Defense strategy that reinforces an existing attitude by providing additional pro-attitudinal arguments without addressing counterarguments; less effective than refutational defense.",
+      "first_seen": "D5-SOC-002-107651e6",
+      "appears_in": [
+        "D5-SOC-002-107651e6"
+      ],
+      "created_at": "2026-04-29T08:34:56.771061+00:00"
+    },
+    "cultural-truism": {
+      "label": "Cultural Truism",
+      "description": "Widely accepted belief that individuals have rarely or never had to defend, making it especially vulnerable to surprise attack — the original target of inoculation research.",
+      "first_seen": "D5-SOC-002-107651e6",
+      "appears_in": [
+        "D5-SOC-002-107651e6"
+      ],
+      "created_at": "2026-04-29T08:34:56.771066+00:00"
+    },
+    "prebunking-vs-debunking": {
+      "label": "Prebunking vs. Debunking",
+      "description": "Prebunking applies inoculation by pre-exposing people to weakened misinformation before encountering it; debunking attempts to correct misinformation after exposure. Prebunking is generally more effective.",
+      "first_seen": "D5-SOC-002-107651e6",
+      "appears_in": [
+        "D5-SOC-002-107651e6"
+      ],
+      "created_at": "2026-04-29T08:34:56.771071+00:00"
+    }
+  },
+  "label_index": {
+    "nondeclarative implicit memory system": "nondeclarative-memory-system",
+    "basal ganglia and procedural habit learning": "basal-ganglia-procedural",
+    "cerebellum and conditioned motor responses": "cerebellum-classical-conditioning",
+    "hippocampal declarative memory system": "hippocampal-declarative-system",
+    "preserved implicit memory in amnesia": "amnesia-preserved-implicit",
+    "antagonist": "antagonist",
+    "agonist": "agonist",
+    "receptor blockade": "receptor-blockade",
+    "neurotransmitter synthesis release inhibition": "neurotransmitter-synthesis-inhibition",
+    "intrinsic activity": "intrinsic-activity",
+    "conditioned stimulus cs": "conditioned-stimulus",
+    "unconditioned stimulus us": "unconditioned-stimulus",
+    "unconditioned response ur": "unconditioned-response",
+    "conditioned response cr": "conditioned-response",
+    "cs us pairing temporal contiguity": "cs-us-pairing",
+    "coefficient of genetic relationship": "coefficient-of-genetic-relationship",
+    "monozygotic identical twins": "monozygotic-twins",
+    "dizygotic fraternal twins": "dizygotic-twins",
+    "full biological siblings": "full-siblings",
+    "half siblings": "half-siblings",
+    "agoraphobia dsm 5": "agoraphobia-dsm5",
+    "five qualifying situations": "five-agoraphobic-situations",
+    "two of five requirement": "two-situation-requirement",
+    "panic disorder": "panic-disorder",
+    "specific phobia": "specific-phobia",
+    "conditioned inhibitor safety signal": "conditioned-inhibitor",
+    "conditioned excitor cs": "conditioned-excitor",
+    "safety behavior safety signal": "safety-behavior",
+    "positive reinforcer": "positive-reinforcer",
+    "extinction": "extinction",
+    "fading safety signals in exposure": "fading-safety-signals",
+    "blocking effect": "blocking",
+    "surprise prediction error": "surprise-prediction-error",
+    "compound stimulus ab": "compound-stimulus",
+    "two phase blocking procedure": "two-phase-procedure",
+    "rescorla wagner model": "rescorla-wagner-model",
+    "insufficiency of contiguity": "contiguity-insufficiency",
+    "klinefelter syndrome": "klinefelter-syndrome",
+    "47 xxy karyotype": "xxy-karyotype",
+    "turner syndrome": "turner-syndrome",
+    "down syndrome": "down-syndrome",
+    "physical features of klinefelter syndrome": "klinefelter-physical-features",
+    "adhd age of onset criterion before age 12": "adhd-age-of-onset-criterion",
+    "adhd two settings criterion": "adhd-cross-setting-criterion",
+    "adhd six month duration criterion": "adhd-duration-criterion",
+    "dsm iv age 7 onset criterion": "dsm-iv-age-7-criterion",
+    "denial": "denial",
+    "defense mechanism": "defense-mechanism",
+    "repression": "repression",
+    "rationalization": "rationalization",
+    "unconscious process": "unconscious-process",
+    "immature defense": "immature-defense",
+    "holland s realistic type": "holland-realistic-type",
+    "holland s investigative type": "holland-investigative-type",
+    "holland s social type": "holland-social-type",
+    "holland s conventional type": "holland-conventional-type",
+    "holland s enterprising type": "holland-enterprising-type",
+    "self directed search sds": "self-directed-search",
+    "riasec hexagonal model": "riasec-hexagon",
+    "person environment congruence": "person-environment-congruence",
+    "actor observer effect": "actor-observer-effect",
+    "situational attribution": "situational-attribution",
+    "dispositional attribution": "dispositional-attribution",
+    "perceptual salience": "perceptual-salience",
+    "informational access behavioral variability": "informational-access",
+    "negative outcome boundary condition": "negative-outcome-boundary",
+    "theory of work adjustment twa": "theory-of-work-adjustment",
+    "satisfaction twa": "satisfaction-twa",
+    "satisfactoriness twa": "satisfactoriness-twa",
+    "tenure twa": "tenure-twa",
+    "person environment fit": "person-environment-fit",
+    "implied consent": "implied-consent",
+    "express consent": "express-consent",
+    "informed consent": "informed-consent",
+    "reasonableness standard": "reasonableness-standard",
+    "limitations of implied consent": "limitations-of-implied-consent",
+    "apa ethics code standard 9 06": "apa-standard-9-06",
+    "use of qualified interpreter in assessment": "qualified-interpreter-use",
+    "documentation of assessment limitations": "documentation-of-limitations",
+    "apa ethics code standard 9 02 c": "apa-standard-9-02c",
+    "assessment of examinees with limited english proficiency": "limited-english-proficiency-assessment",
+    "caution interpreting scores from interpreted administration": "interpreted-scores-norm-caution",
+    "apa ethics code standard 9 09 test scoring and interpretation services": "apa-standard-9-09",
+    "automated test scoring and interpretation services": "automated-test-interpretation",
+    "professional responsibility in assessment": "professional-responsibility",
+    "clinical integration of test data": "clinical-integration-of-test-data",
+    "validity of interpretive algorithms": "validity-of-interpretive-algorithms",
+    "apa standard 10 10 terminating therapy": "standard-10-10-termination",
+    "appropriate referral to a compatible provider": "appropriate-referral",
+    "standard 2 01 boundaries of competence": "boundaries-of-competence",
+    "therapeutic fit": "therapeutic-fit",
+    "transition support during referral": "transition-support",
+    "preferred treatment modality": "preferred-treatment-modality",
+    "no longer benefiting criterion": "no-longer-benefiting-criterion",
+    "beneficence and nonmaleficence": "beneficence-nonmaleficence",
+    "canadian code of ethics for psychologists": "canadian-code-of-ethics",
+    "pretermination counseling": "pretermination-counseling",
+    "new goals exception": "new-goals-exception",
+    "exploitation and undue dependency": "exploitation-and-dependency-risk",
+    "psypact psychology interjurisdictional compact": "psypact",
+    "client location rule": "client-location-rule",
+    "destination state authorization": "destination-state-authorization",
+    "telehealth jurisdictional practice": "telehealth-jurisdiction",
+    "continuity of care and transfer": "continuity-of-care-transfer",
+    "apa membership action triggers": "apa-membership-action-triggers",
+    "state psychological association discipline": "state-association-discipline",
+    "felony conviction as membership trigger": "felony-conviction-trigger",
+    "state licensing board disciplinary grounds": "state-licensing-board-grounds",
+    "membership vs licensure scope": "membership-vs-licensure-scope",
+    "apa standard 2 05 language interpretation": "apa-standard-2-05-language",
+    "professional interpreter services": "professional-interpreter-services",
+    "referral to bilingual therapist": "bilingual-referral",
+    "family member as interpreter": "family-member-as-interpreter",
+    "risks of using a child as interpreter": "child-interpreter-risks",
+    "apa ethics code standard 1 02": "apa-standard-1-02",
+    "fundamental human rights floor": "fundamental-human-rights-floor",
+    "ethics law conflict": "ethics-law-conflict",
+    "conditional permission to comply": "conditional-permission",
+    "reasonable steps to resolve conflicts": "reasonable-steps-to-resolve",
+    "apa standard 10 10 a terminating therapy": "standard-10-10a-termination",
+    "apa standard 2 06 personal problems and conflicts": "standard-2-06-personal-problems",
+    "self awareness of impairment": "self-awareness-of-impairment",
+    "continuity of care obligation": "continuity-of-care",
+    "non disclosure of personal reason for declining": "non-disclosure-of-personal-reason",
+    "reasonable person standard": "reasonable-person-standard",
+    "hemiplegia": "hemiplegia",
+    "contralateral motor control": "contralateral-motor-control",
+    "corticospinal tract decussation": "corticospinal-tract-decussation",
+    "cerebrovascular stroke thrombosis embolism": "cerebrovascular-stroke",
+    "frontal lobe injury triad stuss knight": "frontal-lobe-injury-triad",
+    "reduced spontaneity and initiative": "reduced-spontaneity-initiative",
+    "emotional lability": "emotional-lability",
+    "impaired planning and sequencing of goal directed motor behavior": "impaired-planning-sequencing",
+    "left hemisphere language dominance": "left-hemisphere-language-dominance",
+    "language lateralization in right handers": "right-handed-language-lateralization",
+    "language lateralization in left handers": "left-handed-language-lateralization",
+    "rasmussen milner 1977": "rasmussen-milner-1977",
+    "hippocampus": "hippocampus",
+    "declarative explicit memory": "declarative-memory",
+    "anterograde amnesia": "anterograde-amnesia",
+    "retrograde amnesia": "retrograde-amnesia",
+    "non declarative implicit memory": "non-declarative-memory",
+    "patient h m henry molaison": "patient-hm",
+    "dlb diagnostic algorithm dsm 5": "dlb-diagnostic-algorithm",
+    "dlb core features": "dlb-core-features",
+    "dlb suggestive features": "dlb-suggestive-features",
+    "parkinsonism onset timing": "parkinsonism-temporal-sequence",
+    "characteristic visual hallucinations in dlb": "visual-hallucination-character",
+    "wais iv general ability index gai": "wais-iv-gai",
+    "wais iv full scale iq fsiq": "wais-iv-fsiq",
+    "verbal comprehension index vci": "verbal-comprehension-index",
+    "perceptual reasoning index pri": "perceptual-reasoning-index",
+    "wmi and psi cognitive efficiency": "wmi-psi-cognitive-efficiency",
+    "secondary circular reactions substage 3": "secondary-circular-reactions",
+    "primary circular reactions substage 2": "primary-circular-reactions",
+    "tertiary circular reactions substage 5": "tertiary-circular-reactions",
+    "sensorimotor stage": "sensorimotor-stage",
+    "coordination of secondary schemes substage 4": "coordination-of-secondary-schemes",
+    "serotonin syndrome": "serotonin-syndrome",
+    "ssri maoi combination": "ssri-maoi-combination",
+    "serotonin syndrome management": "serotonin-syndrome-management",
+    "neuroleptic malignant syndrome nms": "neuroleptic-malignant-syndrome",
+    "ssri to maoi washout period": "ssri-washout-period",
+    "standard error of the mean sem": "standard-error-of-the-mean",
+    "sampling distribution of the mean": "sampling-distribution-of-the-mean",
+    "population standard deviation sigma": "population-standard-deviation",
+    "sample size n": "sample-size",
+    "confidence interval for the mean": "confidence-interval-mean",
+    "ipt s medical model foundation": "ipt-medical-model",
+    "sick role in ipt": "sick-role",
+    "self blame reduction function": "ipt-self-blame-reduction",
+    "treatability framing function": "ipt-treatability-framing",
+    "job analysis as first step": "job-analysis-first-step",
+    "ksaos knowledge skills abilities other characteristics": "ksaos",
+    "content validity job relatedness foundation": "content-validity-foundation",
+    "job analysis methods": "job-analysis-methods",
+    "translation of ksaos into appraisal content": "ksao-to-appraisal-translation",
+    "schizoaffective disorder dsm 5": "schizoaffective-disorder-dsm5",
+    "criterion a symptoms of schizophrenia": "criterion-a-schizophrenia",
+    "mood disorder with psychotic features": "mood-disorder-with-psychotic-features",
+    "schizophrenia dsm 5": "schizophrenia-dsm5",
+    "longitudinal symptom course analysis": "longitudinal-diagnostic-approach",
+    "mcguire s inoculation theory": "inoculation-theory",
+    "refutational defense": "refutational-defense",
+    "supportive defense": "supportive-defense",
+    "cultural truism": "cultural-truism",
+    "prebunking vs debunking": "prebunking-vs-debunking"
+  },
+  "aliases": {
+    "apa-standard-10-10-termination": "standard-10-10-termination",
+    "limits-of-implied-consent": "limitations-of-implied-consent"
+  }
+}
